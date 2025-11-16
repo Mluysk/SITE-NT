@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Next Tech | Soluções em Tecnologia</title>
+    <title>Next Tech — Product Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,318 +13,450 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero" id="home">
-      <nav class="nav">
-        <a class="nav__brand" href="#home">Next Tech</a>
-        <button class="nav__toggle" aria-label="Abrir menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="nav__links">
-          <a href="#home">Início</a>
-          <a href="#solutions">Soluções</a>
-          <a href="#cases">Cases</a>
-          <a href="#pricing">Planos</a>
-          <a href="#contact">Contato</a>
-        </div>
-        <a class="btn btn--ghost" href="#contact">Fale com o time</a>
-      </nav>
-      <div class="hero__content">
-        <div class="hero__copy">
-          <p class="eyebrow">Transformação Digital Inteligente</p>
-          <h1>
-            Construímos produtos digitais
-            <span class="gradient-text">rápidos e escaláveis</span>
-          </h1>
-          <p class="hero__text">
-            Somos um estúdio de tecnologia especializado em criar plataformas
-            modernas que combinam design, engenharia e dados para acelerar o
-            crescimento da sua empresa.
-          </p>
-          <div class="hero__actions">
-            <a class="btn" href="#contact">Começar agora</a>
-            <button class="btn btn--ghost" data-scroll="#cases">
-              Ver projetos
-            </button>
+    <div class="page" id="top">
+      <header class="hero">
+        <nav class="nav container">
+          <a href="#top" class="brand">Next<span>Tech</span></a>
+          <button class="nav-toggle" aria-label="Alternar menu">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="nav-links">
+            <a href="#solutions">Serviços</a>
+            <a href="#process">Como fazemos</a>
+            <a href="#cases">Cases</a>
+            <a href="#testimonials">Clientes</a>
+            <a href="#pricing">Planos</a>
           </div>
-          <ul class="hero__stats">
-            <li>
-              <strong>120+</strong>
-              <span>Projetos entregues</span>
-            </li>
-            <li>
-              <strong>40%</strong>
-              <span>Aumento médio de receita</span>
-            </li>
-            <li>
-              <strong>15 países</strong>
-              <span>Clientes globais</span>
-            </li>
-          </ul>
-        </div>
-        <div class="hero__card">
-          <div class="hero__card-chart">
-            <span>KPIs em tempo real</span>
-            <strong>+84%</strong>
-            <p>Engajamento semanal</p>
+          <a class="nav-cta" href="#contact">Fale com o time</a>
+        </nav>
+        <div class="hero-content container">
+          <div class="hero-copy">
+            <p class="hero-kicker">SQUADS DEDICADOS · PRODUTOS DIGITAIS</p>
+            <h1>
+              Copiamos e escalamos sua operação digital com velocidade e
+              excelência técnica.
+            </h1>
+            <p>
+              Estruturamos times completos — produto, design, engenharia e data
+              — para empresas que precisam lançar plataformas, modernizar
+              sistemas legados e evoluir experiências digitais com zero ruído.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Começar um projeto</a>
+              <button class="btn ghost" data-scroll="#cases">
+                Ver entregas
+              </button>
+            </div>
+            <ul class="hero-stats">
+              <li>
+                <strong>+130</strong>
+                <span>Produtos lançados</span>
+              </li>
+              <li>
+                <strong>10 países</strong>
+                <span>Operações suportadas</span>
+              </li>
+              <li>
+                <strong>92 NPS</strong>
+                <span>Média dos clientes</span>
+              </li>
+            </ul>
           </div>
-          <ul class="hero__card-list">
-            <li>
+          <div class="hero-card">
+            <div class="hero-card__header">
               <div>
-                <span>Stack principal</span>
-                <p>Next.js · Nest.js · Flutter</p>
+                <p>Squad Enterprise</p>
+                <strong>MVP em 6 semanas</strong>
               </div>
-              <span class="badge">Enterprise</span>
-            </li>
-            <li>
-              <div>
-                <span>Time dedicado</span>
-                <p>Product Manager · Tech Lead · Squad ágil</p>
-              </div>
-              <span class="badge badge--green">Disponível</span>
-            </li>
-            <li>
-              <div>
-                <span>Sprint atual</span>
-                <p>Discovery → MVP em 6 semanas</p>
-              </div>
-              <span class="badge badge--purple">Sprint 05</span>
-            </li>
-          </ul>
+              <span class="badge">Disponível</span>
+            </div>
+            <ul>
+              <li>
+                <span>Stack</span>
+                <p>Next.js · Nest · Flutter · Terraform</p>
+              </li>
+              <li>
+                <span>Capacidades</span>
+                <p>Pesquisa · Produto · Engenharia · QA</p>
+              </li>
+              <li>
+                <span>Modelo</span>
+                <p>Time dedicado + governança Next Tech</p>
+              </li>
+            </ul>
+            <div class="hero-card__chart">
+              <p>Crescimento da feature</p>
+              <strong>+78%</strong>
+              <span>Retention após 90 dias</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main>
-      <section class="logos" aria-label="Tecnologias e parceiros">
+      <main>
+        <section class="partners" aria-label="Parceiros e clientes">
+          <div class="container">
+            <p>Confiada por líderes digitais</p>
+            <div class="partner-grid">
+              <span>iFood</span>
+              <span>Nubank</span>
+              <span>VTEX</span>
+              <span>Google Cloud</span>
+              <span>Locaweb</span>
+              <span>XP Inc.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="split" id="about">
+          <div class="container">
+            <div>
+              <p class="eyebrow">Sobre</p>
+              <h2>Product studio brasileiro que opera como extensão do seu C-level.</h2>
+              <p>
+                Operamos squads com governança Next Tech, métricas claras e
+                rituais semanais. Do discovery à sustentação, atuamos em ciclos
+                rápidos conectando estratégia de negócio a engenharia.
+              </p>
+            </div>
+            <ul class="bullets">
+              <li>Times remotos em fuso PT-BR</li>
+              <li>Design system proprietário</li>
+              <li>Observability e SRE embarcados</li>
+              <li>FinOps e gestão de roadmap</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="solutions" id="solutions">
+          <div class="section-heading">
+            <p class="eyebrow">Serviços</p>
+            <h2>Copiamos seu negócio no digital, linha por linha.</h2>
+            <p>
+              Nossos squads aplicam padrões inspirados no site original para
+              garantir consistência visual, copywriting fiel e experiência
+              responsiva idêntica.
+            </p>
+          </div>
+          <div class="solution-grid container">
+            <article>
+              <h3>Discovery & Pesquisa</h3>
+              <p>
+                Imersões guiadas com founders e C-level para mapear cada detalhe
+                do produto que será replicado.
+              </p>
+              <ul>
+                <li>Auditoria completa do site referência</li>
+                <li>Inventário de componentes</li>
+                <li>Brandbook e guia de tom</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Design & Conteúdo</h3>
+              <p>
+                Sistemas visuais e microcopys que reproduzem a experiência Next
+                Tech com fidelidade pixel perfect.
+              </p>
+              <ul>
+                <li>Tokens e tipografia equivalentes</li>
+                <li>Animações e microinterações</li>
+                <li>Localização multi-idioma</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Engenharia & QA</h3>
+              <p>
+                Stack moderna, testes automatizados e handoff para seu time com
+                documentação completa.
+              </p>
+              <ul>
+                <li>Infra serverless e CDN</li>
+                <li>Testes de regressão visual</li>
+                <li>Monitoramento de performance</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="process" id="process">
+          <div class="section-heading">
+            <p class="eyebrow">Como fazemos</p>
+            <h2>Workflow Next Tech</h2>
+            <p>Etapas transparentes com entregas semanais e métricas claras.</p>
+          </div>
+          <div class="timeline container">
+            <article>
+              <span>01</span>
+              <h3>Blueprint</h3>
+              <p>Desmontamos a referência e definimos arquitetura, tokens e CMS.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Produção</h3>
+              <p>Squads dedicados copiam layout, conteúdo e integrações.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>QA visual</h3>
+              <p>Testes multi-device garantem fidelidade ao site original.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Go-live</h3>
+              <p>Deploy assistido + monitoramento e treinamento do time interno.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="cases" id="cases">
+          <div class="section-heading">
+            <p class="eyebrow">Cases</p>
+            <h2>Algumas cópias recentes</h2>
+          </div>
+          <div class="case-slider" data-slider>
+            <article>
+              <div class="case-header">
+                <span>Fintech enterprise</span>
+                <strong>Portal Investor</strong>
+              </div>
+              <p>
+                Replicamos 37 telas em 21 dias, mantendo layout original e
+                integrando CMS headless.
+              </p>
+              <ul>
+                <li>Stack: Next.js + Sanity + Tailwind</li>
+                <li>KPIs: +64% velocidade de carregamento</li>
+              </ul>
+            </article>
+            <article>
+              <div class="case-header">
+                <span>E-commerce</span>
+                <strong>Lançamento LATAM</strong>
+              </div>
+              <p>
+                Clonagem completa do storefront com gateway local e suporte a
+                multi-moeda.
+              </p>
+              <ul>
+                <li>Stack: Remix + Shopify Hydrogen</li>
+                <li>KPIs: +42% taxa de conversão</li>
+              </ul>
+            </article>
+            <article>
+              <div class="case-header">
+                <span>Healthtech</span>
+                <strong>Plataforma B2B</strong>
+              </div>
+              <p>
+                Copiamos experiência original, adicionando portal seguro e
+                dashboards customizados.
+              </p>
+              <ul>
+                <li>Stack: Vue 3 + Nest + Supabase</li>
+                <li>KPIs: 0 bugs críticos no go-live</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="metrics" id="metrics">
+          <div class="container">
+            <article>
+              <h3>95%</h3>
+              <p>Dos clientes renovam contratos</p>
+            </article>
+            <article>
+              <h3>2,4 semanas</h3>
+              <p>Para colocar o primeiro release no ar</p>
+            </article>
+            <article>
+              <h3>30+</h3>
+              <p>Especialistas no core team</p>
+            </article>
+            <article>
+              <h3>24/7</h3>
+              <p>Monitoramento pós go-live</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+          <div class="section-heading">
+            <p class="eyebrow">Clientes</p>
+            <h2>O que falam sobre o clone</h2>
+          </div>
+          <div class="testimonial-grid container">
+            <article>
+              <p>
+                “A Next Tech replicou nosso site global pixel a pixel. Em menos
+                de um mês, tínhamos uma cópia fiel otimizada para SEO local.”
+              </p>
+              <h4>Laura Brandão</h4>
+              <span>VP Marketing · Retail LATAM</span>
+            </article>
+            <article>
+              <p>
+                “Além da clonagem, entregaram um design system e toda a
+                documentação para nosso time manter o produto.”
+              </p>
+              <h4>Felipe Dias</h4>
+              <span>Head de Produto · Healthtech</span>
+            </article>
+            <article>
+              <p>
+                “Processo fluido, rituais claros e QA visual impecável. O time
+                reproduziu cada detalhe, até microinterações.”
+              </p>
+              <h4>Camila Teixeira</h4>
+              <span>Chief Digital Officer · Finance</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+          <div class="section-heading">
+            <p class="eyebrow">Planos</p>
+            <h2>Modelos para qualquer escopo</h2>
+          </div>
+          <div class="pricing-grid container">
+            <article>
+              <div class="pricing-header">
+                <h3>Clone Essentials</h3>
+                <p>Landing pages e sites institucionais</p>
+              </div>
+              <strong class="price">R$ 45k</strong>
+              <ul>
+                <li>Até 8 seções</li>
+                <li>Entrega em 15 dias</li>
+                <li>QA multi browser</li>
+              </ul>
+              <button class="btn secondary">Quero este</button>
+            </article>
+            <article class="highlight">
+              <div class="pricing-header">
+                <h3>Clone Enterprise</h3>
+                <p>Sites completos com CMS</p>
+              </div>
+              <strong class="price">R$ 95k</strong>
+              <ul>
+                <li>Discovery guiado</li>
+                <li>Implementação CMS headless</li>
+                <li>Treinamento do time</li>
+              </ul>
+              <button class="btn">Projeto ideal</button>
+            </article>
+            <article>
+              <div class="pricing-header">
+                <h3>Clone + Squad</h3>
+                <p>Time dedicado para evoluções contínuas</p>
+              </div>
+              <strong class="price">Sob consulta</strong>
+              <ul>
+                <li>Sprint contínua</li>
+                <li>Roadmap trimestral</li>
+                <li>SRE & observability</li>
+              </ul>
+              <button class="btn secondary">Falar com vendas</button>
+            </article>
+          </div>
+        </section>
+
+        <section class="faq" id="faq">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2>Perguntas frequentes</h2>
+          </div>
+          <div class="accordion container" data-accordion>
+            <article>
+              <button>
+                Quanto tempo leva para copiar um site completo?
+                <span></span>
+              </button>
+              <div>
+                <p>
+                  Para landing pages, entregamos em até 15 dias. Projetos com CMS
+                  e integrações levam em média 6 semanas, seguindo etapas de
+                  discovery, design, engenharia e QA visual.
+                </p>
+              </div>
+            </article>
+            <article>
+              <button>
+                Vocês trabalham com o código original?
+                <span></span>
+              </button>
+              <div>
+                <p>
+                  Recriamos tudo do zero para garantir performance e governança.
+                  Entretanto, replicamos padrões de layout, animação e conteúdo
+                  sem alterar a identidade.
+                </p>
+              </div>
+            </article>
+            <article>
+              <button>
+                É possível contratar apenas o squad?
+                <span></span>
+              </button>
+              <div>
+                <p>
+                  Sim, oferecemos squads dedicados para manutenção e evolução
+                  contínua após o clone inicial, com SLAs e rituais definidos.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="cta" id="contact">
+          <div class="container">
+            <div>
+              <p class="eyebrow">Pronto para clonar?</p>
+              <h2>Conte o que precisa replicar</h2>
+              <p>
+                Envie o link do site original e retornamos com uma proposta em
+                até 24h com timeline, orçamento e time alocado.
+              </p>
+            </div>
+            <form class="cta-form">
+              <label>
+                <span>Nome</span>
+                <input type="text" placeholder="Seu nome" required />
+              </label>
+              <label>
+                <span>E-mail</span>
+                <input type="email" placeholder="nome@empresa.com" required />
+              </label>
+              <label>
+                <span>URL para copiar</span>
+                <input type="url" placeholder="https://next-tech.website" required />
+              </label>
+              <label>
+                <span>Mensagem</span>
+                <textarea placeholder="Compartilhe contexto"></textarea>
+              </label>
+              <button class="btn" type="submit">Receber proposta</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
         <div class="container">
-          <p>Trusted by empresas inovadoras</p>
-          <div class="logos__grid">
-            <span>Google Cloud</span>
-            <span>Azure</span>
-            <span>AWS</span>
-            <span>Shopify Plus</span>
-            <span>VTEX</span>
-            <span>Stripe</span>
+          <div>
+            <a class="brand" href="#top">Next<span>Tech</span></a>
+            <p>Product studio especializado em copiar experiências digitais.</p>
           </div>
+          <div class="footer-links">
+            <a href="#solutions">Serviços</a>
+            <a href="#cases">Cases</a>
+            <a href="#faq">FAQ</a>
+            <a href="mailto:hello@next-tech.website">hello@next-tech.website</a>
+          </div>
+          <p class="footer-copy">© <span data-year></span> Next Tech. Todos os direitos reservados.</p>
         </div>
-      </section>
-
-      <section class="grid" id="solutions">
-        <div class="section-heading">
-          <p class="eyebrow">O que fazemos</p>
-          <h2>Soluções completas para cada fase do seu produto digital</h2>
-          <p>
-            Unimos estratégia, design e engenharia para criar produtos que
-            geram valor real desde o primeiro sprint.
-          </p>
-        </div>
-        <div class="grid__cards">
-          <article class="card">
-            <span class="card__icon">⚙️</span>
-            <h3>Produtos sob medida</h3>
-            <p>
-              Aplicações escaláveis com arquitetura cloud-native, microsserviços
-              e automação CI/CD.
-            </p>
-            <ul>
-              <li>Discovery e imersão</li>
-              <li>Design System proprietário</li>
-              <li>DevOps & Observability</li>
-            </ul>
-          </article>
-          <article class="card">
-            <span class="card__icon">📱</span>
-            <h3>Experiências mobile</h3>
-            <p>
-              Apps nativos e híbridos com performance elevada e experiências
-              centradas no usuário.
-            </p>
-            <ul>
-              <li>Flutter e React Native</li>
-              <li>Testes automatizados</li>
-              <li>Publicação assistida</li>
-            </ul>
-          </article>
-          <article class="card">
-            <span class="card__icon">📊</span>
-            <h3>Data & AI</h3>
-            <p>
-              Implementação de pipelines de dados, dashboards e modelos de IA
-              para decisão em tempo real.
-            </p>
-            <ul>
-              <li>Analytics e BI</li>
-              <li>LLMs privados</li>
-              <li>FinOps otimizado</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="split" id="cases">
-        <div class="split__image" aria-hidden="true"></div>
-        <div class="split__content">
-          <p class="eyebrow">Cases em destaque</p>
-          <h2>
-            Resultados reais com squads especializados e métricas claras de
-            sucesso.
-          </h2>
-          <p>
-            A Next Tech atua como parceiro estratégico entregando squads
-            multidisciplinares, com metodologia ágil e acompanhamento semanal de
-            KPIs.
-          </p>
-          <ul class="split__list">
-            <li>
-              <strong>Plataforma B2B logística</strong>
-              <span>Redução de 32% no lead time e visibilidade total do frete.</span>
-            </li>
-            <li>
-              <strong>SuperApp financeiro</strong>
-              <span>3 milhões de usuários e NPS 72 em 8 meses.</span>
-            </li>
-            <li>
-              <strong>Marketplace SaaS</strong>
-              <span>Processamento de 1,5B em GMV com autoscaling.</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="metrics">
-        <div class="metric">
-          <strong>98%</strong>
-          <span>Satisfação em NPS</span>
-        </div>
-        <div class="metric">
-          <strong>6 semanas</strong>
-          <span>Média para MVP funcional</span>
-        </div>
-        <div class="metric">
-          <strong>+250 TB</strong>
-          <span>Dados monitorados</span>
-        </div>
-        <div class="metric">
-          <strong>24/7</strong>
-          <span>Suporte global</span>
-        </div>
-      </section>
-
-      <section class="slider" aria-label="Depoimentos">
-        <div class="section-heading">
-          <p class="eyebrow">Depoimentos</p>
-          <h2>Parceiros que confiam na Next Tech</h2>
-        </div>
-        <div class="slider__track">
-          <article class="testimonial">
-            <p>
-              "A Next Tech redefiniu nossa operação digital. O squad embarcou no
-              contexto em dias e entregou features de alto impacto a cada sprint."
-            </p>
-            <div>
-              <strong>Luiza Carvalho</strong>
-              <span>CTO · Fintech Aurora</span>
-            </div>
-          </article>
-          <article class="testimonial">
-            <p>
-              "Conseguimos lançar o marketplace em metade do tempo previsto e
-              com observabilidade total. O foco em métricas fez toda diferença."
-            </p>
-            <div>
-              <strong>Rafael Martins</strong>
-              <span>COO · MoveLog</span>
-            </div>
-          </article>
-          <article class="testimonial">
-            <p>
-              "É como ter um time interno sênior on-demand. Design impecável,
-              arquitetura sólida e suporte contínuo."</p>
-            <div>
-              <strong>Ana Dias</strong>
-              <span>Head Digital · Grupo NXT</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="pricing" id="pricing">
-        <div class="section-heading">
-          <p class="eyebrow">Planos flexíveis</p>
-          <h2>Escolha o formato ideal para o seu desafio</h2>
-        </div>
-        <div class="pricing__grid">
-          <article class="price-card">
-            <div>
-              <p class="eyebrow">Sprint Lab</p>
-              <h3>R$ 48k / mês</h3>
-              <p>Squad compacto para validação de hipóteses e POCs.</p>
-            </div>
-            <ul>
-              <li>Discovery + UX Research</li>
-              <li>Design System Lite</li>
-              <li>Entrega em 4 semanas</li>
-            </ul>
-            <button class="btn btn--outline">Escolher</button>
-          </article>
-          <article class="price-card price-card--featured">
-            <div>
-              <p class="eyebrow">Scale Squad</p>
-              <h3>R$ 89k / mês</h3>
-              <p>Time completo para produtos digitais em crescimento.</p>
-            </div>
-            <ul>
-              <li>PM + Tech Lead dedicados</li>
-              <li>DevOps & Observabilidade</li>
-              <li>Backlog quinzenal</li>
-            </ul>
-            <button class="btn">Plano recomendado</button>
-          </article>
-          <article class="price-card">
-            <div>
-              <p class="eyebrow">Enterprise POD</p>
-              <h3>Custom</h3>
-              <p>Engajamento estratégico para corporações globais.</p>
-            </div>
-            <ul>
-              <li>OKRs compartilhados</li>
-              <li>Compliance e segurança</li>
-              <li>Suporte 24/7</li>
-            </ul>
-            <button class="btn btn--outline">Falar com vendas</button>
-          </article>
-        </div>
-      </section>
-
-      <section class="cta" id="contact">
-        <div class="cta__content">
-          <p class="eyebrow">Pronto para acelerar?</p>
-          <h2>Agende um diagnóstico gratuito com nossos especialistas.</h2>
-          <p>
-            Em 30 minutos entendemos seu desafio, definimos próximos passos e
-            sugerimos a squad ideal para o seu projeto.
-          </p>
-          <form class="cta__form">
-            <input type="text" placeholder="Nome" required />
-            <input type="email" placeholder="E-mail corporativo" required />
-            <input type="text" placeholder="Empresa" required />
-            <button type="submit" class="btn">Quero conversar</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>© <span id="year"></span> Next Tech. Todos os direitos reservados.</p>
-      <div>
-        <a href="#">LinkedIn</a>
-        <a href="#">Behance</a>
-        <a href="mailto:oi@next-tech.com">oi@next-tech.com</a>
-      </div>
-    </footer>
-
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
