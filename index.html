@@ -3,457 +3,213 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Next Tech — Product Studio</title>
+    <title>Next Tech - Assistência Técnica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page" id="top">
-      <header class="hero">
-        <nav class="nav container">
-          <a href="#top" class="brand">Next<span>Tech</span></a>
-          <button class="nav-toggle" aria-label="Alternar menu">
-            <span></span><span></span><span></span>
-          </button>
-          <div class="nav-links">
-            <a href="#solutions">Serviços</a>
-            <a href="#process">Como fazemos</a>
-            <a href="#cases">Cases</a>
-            <a href="#testimonials">Clientes</a>
-            <a href="#pricing">Planos</a>
-          </div>
-          <a class="nav-cta" href="#contact">Fale com o time</a>
-        </nav>
-        <div class="hero-content container">
-          <div class="hero-copy">
-            <p class="hero-kicker">SQUADS DEDICADOS · PRODUTOS DIGITAIS</p>
-            <h1>
-              Copiamos e escalamos sua operação digital com velocidade e
-              excelência técnica.
-            </h1>
-            <p>
-              Estruturamos times completos — produto, design, engenharia e data
-              — para empresas que precisam lançar plataformas, modernizar
-              sistemas legados e evoluir experiências digitais com zero ruído.
-            </p>
-            <div class="hero-actions">
-              <a class="btn" href="#contact">Começar um projeto</a>
-              <button class="btn ghost" data-scroll="#cases">
-                Ver entregas
-              </button>
-            </div>
-            <ul class="hero-stats">
-              <li>
-                <strong>+130</strong>
-                <span>Produtos lançados</span>
-              </li>
-              <li>
-                <strong>10 países</strong>
-                <span>Operações suportadas</span>
-              </li>
-              <li>
-                <strong>92 NPS</strong>
-                <span>Média dos clientes</span>
-              </li>
-            </ul>
-          </div>
-          <div class="hero-card">
-            <div class="hero-card__header">
-              <div>
-                <p>Squad Enterprise</p>
-                <strong>MVP em 6 semanas</strong>
-              </div>
-              <span class="badge">Disponível</span>
-            </div>
-            <ul>
-              <li>
-                <span>Stack</span>
-                <p>Next.js · Nest · Flutter · Terraform</p>
-              </li>
-              <li>
-                <span>Capacidades</span>
-                <p>Pesquisa · Produto · Engenharia · QA</p>
-              </li>
-              <li>
-                <span>Modelo</span>
-                <p>Time dedicado + governança Next Tech</p>
-              </li>
-            </ul>
-            <div class="hero-card__chart">
-              <p>Crescimento da feature</p>
-              <strong>+78%</strong>
-              <span>Retention após 90 dias</span>
-            </div>
+    <div class="site">
+      <header class="top-bar">
+        <div class="container">
+          <p>Suporte especializado em smartphones e eletrônicos</p>
+          <div class="top-contacts">
+            <a href="tel:+554136639600">(41) 3663-9600</a>
+            <a href="mailto:contato@next-tech.website">contato@next-tech.website</a>
           </div>
         </div>
       </header>
 
+      <header class="main-header">
+        <div class="container">
+          <a class="logo" href="#top">
+            <span>NEXT</span>
+            <strong>Tech</strong>
+          </a>
+          <nav class="nav" aria-label="Menu principal">
+            <button class="nav-toggle" aria-label="Abrir menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-links">
+              <a href="#produtos">Produtos</a>
+              <a href="#manutencao">Manutenção</a>
+              <a href="#suporte">Suporte</a>
+              <a href="#garantia">Garantia</a>
+              <a href="#sobre">Sobre</a>
+            </div>
+          </nav>
+          <a class="login" href="#contato">
+            <span class="login-icon" aria-hidden="true"></span>
+            Login
+          </a>
+        </div>
+      </header>
+
       <main>
-        <section class="partners" aria-label="Parceiros e clientes">
+        <section class="hero" id="produtos">
           <div class="container">
-            <p>Confiada por líderes digitais</p>
-            <div class="partner-grid">
-              <span>iFood</span>
-              <span>Nubank</span>
-              <span>VTEX</span>
-              <span>Google Cloud</span>
-              <span>Locaweb</span>
-              <span>XP Inc.</span>
+            <div class="hero-copy">
+              <p class="kicker">Assistência técnica autorizada</p>
+              <h1>
+                Especialistas em celulares, tablets e acessórios — serviço com a
+                cara da Next Tech.
+              </h1>
+              <p>
+                Trazemos o visual clássico em preto e neon com atendimento de
+                loja física: orçamento instantâneo, peças originais e garantia
+                direta com o time técnico.
+              </p>
+              <div class="hero-actions">
+                <a class="btn" href="#contato">Solicitar atendimento</a>
+                <a class="btn ghost" href="#sobre">Conhecer a loja</a>
+              </div>
+            </div>
+            <div class="hero-slider" aria-label="Galeria de destaques">
+              <div class="slider-track">
+                <article class="slide active">
+                  <div class="slide-tag">Next Tech</div>
+                  <h2>CELULARES SHOP</h2>
+                  <p>Modelos de última geração prontos para entrega.</p>
+                  <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Linha de smartphones" />
+                </article>
+                <article class="slide">
+                  <div class="slide-tag">Assistência técnica</div>
+                  <h2>Troca de telas em 30 minutos</h2>
+                  <p>Laboratório próprio com peças originais e garantia.</p>
+                  <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80" alt="Técnico consertando celular" />
+                </article>
+                <article class="slide">
+                  <div class="slide-tag">Linha gamer</div>
+                  <h2>Acessórios e periféricos</h2>
+                  <p>Headsets, cases e power banks em pronta entrega.</p>
+                  <img src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?auto=format&fit=crop&w=600&q=80" alt="Acessórios para celular" />
+                </article>
+              </div>
+              <div class="slider-controls" role="tablist">
+                <button class="dot active" aria-label="Slide 1" data-slide="0"></button>
+                <button class="dot" aria-label="Slide 2" data-slide="1"></button>
+                <button class="dot" aria-label="Slide 3" data-slide="2"></button>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="split" id="about">
+        <section class="assistencia" id="suporte">
           <div class="container">
-            <div>
-              <p class="eyebrow">Sobre</p>
-              <h2>Product studio brasileiro que opera como extensão do seu C-level.</h2>
-              <p>
-                Operamos squads com governança Next Tech, métricas claras e
-                rituais semanais. Do discovery à sustentação, atuamos em ciclos
-                rápidos conectando estratégia de negócio a engenharia.
-              </p>
+            <div class="assistencia-left">
+              <p class="section-title">Assistência Técnica</p>
+              <h2>Redes Sociais</h2>
+              <div class="sobre" id="sobre">
+                <h3>Sobre</h3>
+                <p>
+                  Quem somos a NEXT Tech: empresa de suporte técnico para
+                  smartphones, tablets e acessórios desde 2010. Nosso laboratório
+                  certificado atende todas as marcas premium com estoque de
+                  peças e equipe especializada em microeletrônica.
+                </p>
+                <p>
+                  Atendimento presencial em Colombo, Curitiba e região, além de
+                  suporte remoto por WhatsApp e redes sociais. Compartilhamos
+                  diagnósticos em tempo real, fotos do reparo e nota fiscal
+                  digital.
+                </p>
+              </div>
+              <ul class="social-list">
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://wa.me/5541999999999" target="_blank">WhatsApp</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+              </ul>
             </div>
-            <ul class="bullets">
-              <li>Times remotos em fuso PT-BR</li>
-              <li>Design system proprietário</li>
-              <li>Observability e SRE embarcados</li>
-              <li>FinOps e gestão de roadmap</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="solutions" id="solutions">
-          <div class="section-heading">
-            <p class="eyebrow">Serviços</p>
-            <h2>Copiamos seu negócio no digital, linha por linha.</h2>
-            <p>
-              Nossos squads aplicam padrões inspirados no site original para
-              garantir consistência visual, copywriting fiel e experiência
-              responsiva idêntica.
-            </p>
-          </div>
-          <div class="solution-grid container">
-            <article>
-              <h3>Discovery & Pesquisa</h3>
-              <p>
-                Imersões guiadas com founders e C-level para mapear cada detalhe
-                do produto que será replicado.
-              </p>
-              <ul>
-                <li>Auditoria completa do site referência</li>
-                <li>Inventário de componentes</li>
-                <li>Brandbook e guia de tom</li>
-              </ul>
-            </article>
-            <article>
-              <h3>Design & Conteúdo</h3>
-              <p>
-                Sistemas visuais e microcopys que reproduzem a experiência Next
-                Tech com fidelidade pixel perfect.
-              </p>
-              <ul>
-                <li>Tokens e tipografia equivalentes</li>
-                <li>Animações e microinterações</li>
-                <li>Localização multi-idioma</li>
-              </ul>
-            </article>
-            <article>
-              <h3>Engenharia & QA</h3>
-              <p>
-                Stack moderna, testes automatizados e handoff para seu time com
-                documentação completa.
-              </p>
-              <ul>
-                <li>Infra serverless e CDN</li>
-                <li>Testes de regressão visual</li>
-                <li>Monitoramento de performance</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="process" id="process">
-          <div class="section-heading">
-            <p class="eyebrow">Como fazemos</p>
-            <h2>Workflow Next Tech</h2>
-            <p>Etapas transparentes com entregas semanais e métricas claras.</p>
-          </div>
-          <div class="timeline container">
-            <article>
-              <span>01</span>
-              <h3>Blueprint</h3>
-              <p>Desmontamos a referência e definimos arquitetura, tokens e CMS.</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Produção</h3>
-              <p>Squads dedicados copiam layout, conteúdo e integrações.</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>QA visual</h3>
-              <p>Testes multi-device garantem fidelidade ao site original.</p>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>Go-live</h3>
-              <p>Deploy assistido + monitoramento e treinamento do time interno.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="cases" id="cases">
-          <div class="section-heading">
-            <p class="eyebrow">Cases</p>
-            <h2>Algumas cópias recentes</h2>
-          </div>
-          <div class="case-slider" data-slider>
-            <article>
-              <div class="case-header">
-                <span>Fintech enterprise</span>
-                <strong>Portal Investor</strong>
-              </div>
-              <p>
-                Replicamos 37 telas em 21 dias, mantendo layout original e
-                integrando CMS headless.
-              </p>
-              <ul>
-                <li>Stack: Next.js + Sanity + Tailwind</li>
-                <li>KPIs: +64% velocidade de carregamento</li>
-              </ul>
-            </article>
-            <article>
-              <div class="case-header">
-                <span>E-commerce</span>
-                <strong>Lançamento LATAM</strong>
-              </div>
-              <p>
-                Clonagem completa do storefront com gateway local e suporte a
-                multi-moeda.
-              </p>
-              <ul>
-                <li>Stack: Remix + Shopify Hydrogen</li>
-                <li>KPIs: +42% taxa de conversão</li>
-              </ul>
-            </article>
-            <article>
-              <div class="case-header">
-                <span>Healthtech</span>
-                <strong>Plataforma B2B</strong>
-              </div>
-              <p>
-                Copiamos experiência original, adicionando portal seguro e
-                dashboards customizados.
-              </p>
-              <ul>
-                <li>Stack: Vue 3 + Nest + Supabase</li>
-                <li>KPIs: 0 bugs críticos no go-live</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="metrics" id="metrics">
-          <div class="container">
-            <article>
-              <h3>95%</h3>
-              <p>Dos clientes renovam contratos</p>
-            </article>
-            <article>
-              <h3>2,4 semanas</h3>
-              <p>Para colocar o primeiro release no ar</p>
-            </article>
-            <article>
-              <h3>30+</h3>
-              <p>Especialistas no core team</p>
-            </article>
-            <article>
-              <h3>24/7</h3>
-              <p>Monitoramento pós go-live</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="testimonials" id="testimonials">
-          <div class="section-heading">
-            <p class="eyebrow">Clientes</p>
-            <h2>O que falam sobre o clone</h2>
-          </div>
-          <div class="testimonial-grid container">
-            <article>
-              <p>
-                “A Next Tech replicou nosso site global pixel a pixel. Em menos
-                de um mês, tínhamos uma cópia fiel otimizada para SEO local.”
-              </p>
-              <h4>Laura Brandão</h4>
-              <span>VP Marketing · Retail LATAM</span>
-            </article>
-            <article>
-              <p>
-                “Além da clonagem, entregaram um design system e toda a
-                documentação para nosso time manter o produto.”
-              </p>
-              <h4>Felipe Dias</h4>
-              <span>Head de Produto · Healthtech</span>
-            </article>
-            <article>
-              <p>
-                “Processo fluido, rituais claros e QA visual impecável. O time
-                reproduziu cada detalhe, até microinterações.”
-              </p>
-              <h4>Camila Teixeira</h4>
-              <span>Chief Digital Officer · Finance</span>
-            </article>
-          </div>
-        </section>
-
-        <section class="pricing" id="pricing">
-          <div class="section-heading">
-            <p class="eyebrow">Planos</p>
-            <h2>Modelos para qualquer escopo</h2>
-          </div>
-          <div class="pricing-grid container">
-            <article>
-              <div class="pricing-header">
-                <h3>Clone Essentials</h3>
-                <p>Landing pages e sites institucionais</p>
-              </div>
-              <strong class="price">R$ 45k</strong>
-              <ul>
-                <li>Até 8 seções</li>
-                <li>Entrega em 15 dias</li>
-                <li>QA multi browser</li>
-              </ul>
-              <button class="btn secondary">Quero este</button>
-            </article>
-            <article class="highlight">
-              <div class="pricing-header">
-                <h3>Clone Enterprise</h3>
-                <p>Sites completos com CMS</p>
-              </div>
-              <strong class="price">R$ 95k</strong>
-              <ul>
-                <li>Discovery guiado</li>
-                <li>Implementação CMS headless</li>
-                <li>Treinamento do time</li>
-              </ul>
-              <button class="btn">Projeto ideal</button>
-            </article>
-            <article>
-              <div class="pricing-header">
-                <h3>Clone + Squad</h3>
-                <p>Time dedicado para evoluções contínuas</p>
-              </div>
-              <strong class="price">Sob consulta</strong>
-              <ul>
-                <li>Sprint contínua</li>
-                <li>Roadmap trimestral</li>
-                <li>SRE & observability</li>
-              </ul>
-              <button class="btn secondary">Falar com vendas</button>
-            </article>
-          </div>
-        </section>
-
-        <section class="faq" id="faq">
-          <div class="section-heading">
-            <p class="eyebrow">FAQ</p>
-            <h2>Perguntas frequentes</h2>
-          </div>
-          <div class="accordion container" data-accordion>
-            <article>
-              <button>
-                Quanto tempo leva para copiar um site completo?
-                <span></span>
-              </button>
-              <div>
-                <p>
-                  Para landing pages, entregamos em até 15 dias. Projetos com CMS
-                  e integrações levam em média 6 semanas, seguindo etapas de
-                  discovery, design, engenharia e QA visual.
-                </p>
-              </div>
-            </article>
-            <article>
-              <button>
-                Vocês trabalham com o código original?
-                <span></span>
-              </button>
-              <div>
-                <p>
-                  Recriamos tudo do zero para garantir performance e governança.
-                  Entretanto, replicamos padrões de layout, animação e conteúdo
-                  sem alterar a identidade.
-                </p>
-              </div>
-            </article>
-            <article>
-              <button>
-                É possível contratar apenas o squad?
-                <span></span>
-              </button>
-              <div>
-                <p>
-                  Sim, oferecemos squads dedicados para manutenção e evolução
-                  contínua após o clone inicial, com SLAs e rituais definidos.
-                </p>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="cta" id="contact">
-          <div class="container">
-            <div>
-              <p class="eyebrow">Pronto para clonar?</p>
-              <h2>Conte o que precisa replicar</h2>
-              <p>
-                Envie o link do site original e retornamos com uma proposta em
-                até 24h com timeline, orçamento e time alocado.
-              </p>
+            <div class="assistencia-right" id="contato">
+              <h3>Contato</h3>
+              <form class="contact-form">
+                <label>
+                  <span>Seu nome</span>
+                  <input type="text" name="nome" placeholder="Seu nome" required />
+                </label>
+                <label>
+                  <span>Seu e-mail</span>
+                  <input type="email" name="email" placeholder="Seu e-mail" required />
+                </label>
+                <label>
+                  <span>Seu telefone</span>
+                  <input type="tel" name="telefone" placeholder="Seu telefone" />
+                </label>
+                <label>
+                  <span>Sua mensagem</span>
+                  <textarea name="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                </label>
+                <button type="submit" class="btn">Enviar</button>
+              </form>
             </div>
-            <form class="cta-form">
-              <label>
-                <span>Nome</span>
-                <input type="text" placeholder="Seu nome" required />
-              </label>
-              <label>
-                <span>E-mail</span>
-                <input type="email" placeholder="nome@empresa.com" required />
-              </label>
-              <label>
-                <span>URL para copiar</span>
-                <input type="url" placeholder="https://next-tech.website" required />
-              </label>
-              <label>
-                <span>Mensagem</span>
-                <textarea placeholder="Compartilhe contexto"></textarea>
-              </label>
-              <button class="btn" type="submit">Receber proposta</button>
-            </form>
+          </div>
+        </section>
+
+        <section class="info-blocks" id="manutencao">
+          <div class="container">
+            <article>
+              <h4>Endereço</h4>
+              <p>Rua Saulo de Borba, 661 · Paloma · Colombo - PR</p>
+            </article>
+            <article>
+              <h4>Horário</h4>
+              <p>Seg a Sex 9h às 18h · Sábado 9h às 13h</p>
+            </article>
+            <article>
+              <h4>Contato imediato</h4>
+              <p>WhatsApp: (41) 9 9533-4558 · Fixo: (41) 3663-9600</p>
+            </article>
+            <article>
+              <h4>Garantia</h4>
+              <p>
+                Todos os reparos contam com laudo e 90 dias de garantia por
+                escrito conforme código de defesa do consumidor.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="map" id="garantia">
+          <div class="container">
+            <div class="map-wrapper">
+              <iframe
+                title="Mapa Next Tech"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.377196438377!2d-49.209!3d-25.403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5b1a0e1264f%3A0x84a881c98ac4d1b6!2sColombo%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1692211111111!5m2!1spt-BR!2sbr"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="map-info">
+              <h3>Venha nos visitar</h3>
+              <p>
+                Loja física com estacionamento exclusivo e área de espera com
+                Wi-Fi. Trazemos o clima exato mostrado na versão original, com
+                contraste alto e toques neon.
+              </p>
+              <ul>
+                <li>Cartões, PIX e parcelamento em até 6x</li>
+                <li>Orçamento em até 10 minutos</li>
+                <li>Check-list assinado no balcão</li>
+              </ul>
+            </div>
           </div>
         </section>
       </main>
 
       <footer class="footer">
         <div class="container">
-          <div>
-            <a class="brand" href="#top">Next<span>Tech</span></a>
-            <p>Product studio especializado em copiar experiências digitais.</p>
-          </div>
-          <div class="footer-links">
-            <a href="#solutions">Serviços</a>
-            <a href="#cases">Cases</a>
-            <a href="#faq">FAQ</a>
-            <a href="mailto:hello@next-tech.website">hello@next-tech.website</a>
-          </div>
-          <p class="footer-copy">© <span data-year></span> Next Tech. Todos os direitos reservados.</p>
+          <p>
+            NEXT Tech © <span id="year"></span> · Rua Saulo de Borba, 661 ·
+            Paloma · Colombo - PR
+          </p>
+          <p>CNPJ 45.999.555/0001-55 · NEXT Tech (41) 3663-9600</p>
         </div>
       </footer>
     </div>

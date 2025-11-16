@@ -1,42 +1,50 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
-const buttons = document.querySelectorAll('[data-scroll]');
-const accordion = document.querySelector('[data-accordion]');
-const slider = document.querySelector('[data-slider]');
-const yearEl = document.querySelector('[data-year]');
+const dots = document.querySelectorAll('.dot');
+const slides = document.querySelectorAll('.slide');
+const yearEl = document.getElementById('year');
+let currentSlide = 0;
+let intervalId;
 
-navToggle?.addEventListener('click', () => {
-  navLinks?.classList.toggle('open');
-});
+const updateSlide = (index) => {
+  currentSlide = index;
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === currentSlide);
+  });
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+};
 
-buttons.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const selector = btn.getAttribute('data-scroll');
-    if (!selector) return;
-    document.querySelector(selector)?.scrollIntoView({ behavior: 'smooth' });
+const nextSlide = () => {
+  const next = (currentSlide + 1) % slides.length;
+  updateSlide(next);
+};
+
+const startSlider = () => {
+  intervalId = setInterval(nextSlide, 5000);
+};
+
+const resetSlider = () => {
+  clearInterval(intervalId);
+  startSlider();
+};
+
+dots.forEach((dot) => {
+  dot.addEventListener('click', () => {
+    updateSlide(Number(dot.dataset.slide));
+    resetSlider();
   });
 });
 
-if (accordion) {
-  accordion.querySelectorAll('article').forEach((item) => {
-    const trigger = item.querySelector('button');
-    trigger?.addEventListener('click', () => {
-      item.classList.toggle('active');
-    });
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
   });
 }
 
-if (slider) {
-  const cards = Array.from(slider.children);
-  let index = 0;
-  setInterval(() => {
-    cards.forEach((card, i) => {
-      card.style.opacity = i === index ? '1' : '0.4';
-      card.style.transform =
-        i === index ? 'translateY(0)' : 'translateY(8px) scale(0.98)';
-    });
-    index = (index + 1) % cards.length;
-  }, 5000);
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
 }
 
-yearEl && (yearEl.textContent = new Date().getFullYear());
+startSlider();
