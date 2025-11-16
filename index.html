@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Tech | Soluções em Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav">
+        <a class="nav__brand" href="#home">Next Tech</a>
+        <button class="nav__toggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav__links">
+          <a href="#home">Início</a>
+          <a href="#solutions">Soluções</a>
+          <a href="#cases">Cases</a>
+          <a href="#pricing">Planos</a>
+          <a href="#contact">Contato</a>
+        </div>
+        <a class="btn btn--ghost" href="#contact">Fale com o time</a>
+      </nav>
+      <div class="hero__content">
+        <div class="hero__copy">
+          <p class="eyebrow">Transformação Digital Inteligente</p>
+          <h1>
+            Construímos produtos digitais
+            <span class="gradient-text">rápidos e escaláveis</span>
+          </h1>
+          <p class="hero__text">
+            Somos um estúdio de tecnologia especializado em criar plataformas
+            modernas que combinam design, engenharia e dados para acelerar o
+            crescimento da sua empresa.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#contact">Começar agora</a>
+            <button class="btn btn--ghost" data-scroll="#cases">
+              Ver projetos
+            </button>
+          </div>
+          <ul class="hero__stats">
+            <li>
+              <strong>120+</strong>
+              <span>Projetos entregues</span>
+            </li>
+            <li>
+              <strong>40%</strong>
+              <span>Aumento médio de receita</span>
+            </li>
+            <li>
+              <strong>15 países</strong>
+              <span>Clientes globais</span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__card">
+          <div class="hero__card-chart">
+            <span>KPIs em tempo real</span>
+            <strong>+84%</strong>
+            <p>Engajamento semanal</p>
+          </div>
+          <ul class="hero__card-list">
+            <li>
+              <div>
+                <span>Stack principal</span>
+                <p>Next.js · Nest.js · Flutter</p>
+              </div>
+              <span class="badge">Enterprise</span>
+            </li>
+            <li>
+              <div>
+                <span>Time dedicado</span>
+                <p>Product Manager · Tech Lead · Squad ágil</p>
+              </div>
+              <span class="badge badge--green">Disponível</span>
+            </li>
+            <li>
+              <div>
+                <span>Sprint atual</span>
+                <p>Discovery → MVP em 6 semanas</p>
+              </div>
+              <span class="badge badge--purple">Sprint 05</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="logos" aria-label="Tecnologias e parceiros">
+        <div class="container">
+          <p>Trusted by empresas inovadoras</p>
+          <div class="logos__grid">
+            <span>Google Cloud</span>
+            <span>Azure</span>
+            <span>AWS</span>
+            <span>Shopify Plus</span>
+            <span>VTEX</span>
+            <span>Stripe</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid" id="solutions">
+        <div class="section-heading">
+          <p class="eyebrow">O que fazemos</p>
+          <h2>Soluções completas para cada fase do seu produto digital</h2>
+          <p>
+            Unimos estratégia, design e engenharia para criar produtos que
+            geram valor real desde o primeiro sprint.
+          </p>
+        </div>
+        <div class="grid__cards">
+          <article class="card">
+            <span class="card__icon">⚙️</span>
+            <h3>Produtos sob medida</h3>
+            <p>
+              Aplicações escaláveis com arquitetura cloud-native, microsserviços
+              e automação CI/CD.
+            </p>
+            <ul>
+              <li>Discovery e imersão</li>
+              <li>Design System proprietário</li>
+              <li>DevOps & Observability</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card__icon">📱</span>
+            <h3>Experiências mobile</h3>
+            <p>
+              Apps nativos e híbridos com performance elevada e experiências
+              centradas no usuário.
+            </p>
+            <ul>
+              <li>Flutter e React Native</li>
+              <li>Testes automatizados</li>
+              <li>Publicação assistida</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card__icon">📊</span>
+            <h3>Data & AI</h3>
+            <p>
+              Implementação de pipelines de dados, dashboards e modelos de IA
+              para decisão em tempo real.
+            </p>
+            <ul>
+              <li>Analytics e BI</li>
+              <li>LLMs privados</li>
+              <li>FinOps otimizado</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="split" id="cases">
+        <div class="split__image" aria-hidden="true"></div>
+        <div class="split__content">
+          <p class="eyebrow">Cases em destaque</p>
+          <h2>
+            Resultados reais com squads especializados e métricas claras de
+            sucesso.
+          </h2>
+          <p>
+            A Next Tech atua como parceiro estratégico entregando squads
+            multidisciplinares, com metodologia ágil e acompanhamento semanal de
+            KPIs.
+          </p>
+          <ul class="split__list">
+            <li>
+              <strong>Plataforma B2B logística</strong>
+              <span>Redução de 32% no lead time e visibilidade total do frete.</span>
+            </li>
+            <li>
+              <strong>SuperApp financeiro</strong>
+              <span>3 milhões de usuários e NPS 72 em 8 meses.</span>
+            </li>
+            <li>
+              <strong>Marketplace SaaS</strong>
+              <span>Processamento de 1,5B em GMV com autoscaling.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="metrics">
+        <div class="metric">
+          <strong>98%</strong>
+          <span>Satisfação em NPS</span>
+        </div>
+        <div class="metric">
+          <strong>6 semanas</strong>
+          <span>Média para MVP funcional</span>
+        </div>
+        <div class="metric">
+          <strong>+250 TB</strong>
+          <span>Dados monitorados</span>
+        </div>
+        <div class="metric">
+          <strong>24/7</strong>
+          <span>Suporte global</span>
+        </div>
+      </section>
+
+      <section class="slider" aria-label="Depoimentos">
+        <div class="section-heading">
+          <p class="eyebrow">Depoimentos</p>
+          <h2>Parceiros que confiam na Next Tech</h2>
+        </div>
+        <div class="slider__track">
+          <article class="testimonial">
+            <p>
+              "A Next Tech redefiniu nossa operação digital. O squad embarcou no
+              contexto em dias e entregou features de alto impacto a cada sprint."
+            </p>
+            <div>
+              <strong>Luiza Carvalho</strong>
+              <span>CTO · Fintech Aurora</span>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p>
+              "Conseguimos lançar o marketplace em metade do tempo previsto e
+              com observabilidade total. O foco em métricas fez toda diferença."
+            </p>
+            <div>
+              <strong>Rafael Martins</strong>
+              <span>COO · MoveLog</span>
+            </div>
+          </article>
+          <article class="testimonial">
+            <p>
+              "É como ter um time interno sênior on-demand. Design impecável,
+              arquitetura sólida e suporte contínuo."</p>
+            <div>
+              <strong>Ana Dias</strong>
+              <span>Head Digital · Grupo NXT</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Planos flexíveis</p>
+          <h2>Escolha o formato ideal para o seu desafio</h2>
+        </div>
+        <div class="pricing__grid">
+          <article class="price-card">
+            <div>
+              <p class="eyebrow">Sprint Lab</p>
+              <h3>R$ 48k / mês</h3>
+              <p>Squad compacto para validação de hipóteses e POCs.</p>
+            </div>
+            <ul>
+              <li>Discovery + UX Research</li>
+              <li>Design System Lite</li>
+              <li>Entrega em 4 semanas</li>
+            </ul>
+            <button class="btn btn--outline">Escolher</button>
+          </article>
+          <article class="price-card price-card--featured">
+            <div>
+              <p class="eyebrow">Scale Squad</p>
+              <h3>R$ 89k / mês</h3>
+              <p>Time completo para produtos digitais em crescimento.</p>
+            </div>
+            <ul>
+              <li>PM + Tech Lead dedicados</li>
+              <li>DevOps & Observabilidade</li>
+              <li>Backlog quinzenal</li>
+            </ul>
+            <button class="btn">Plano recomendado</button>
+          </article>
+          <article class="price-card">
+            <div>
+              <p class="eyebrow">Enterprise POD</p>
+              <h3>Custom</h3>
+              <p>Engajamento estratégico para corporações globais.</p>
+            </div>
+            <ul>
+              <li>OKRs compartilhados</li>
+              <li>Compliance e segurança</li>
+              <li>Suporte 24/7</li>
+            </ul>
+            <button class="btn btn--outline">Falar com vendas</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="cta__content">
+          <p class="eyebrow">Pronto para acelerar?</p>
+          <h2>Agende um diagnóstico gratuito com nossos especialistas.</h2>
+          <p>
+            Em 30 minutos entendemos seu desafio, definimos próximos passos e
+            sugerimos a squad ideal para o seu projeto.
+          </p>
+          <form class="cta__form">
+            <input type="text" placeholder="Nome" required />
+            <input type="email" placeholder="E-mail corporativo" required />
+            <input type="text" placeholder="Empresa" required />
+            <button type="submit" class="btn">Quero conversar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Next Tech. Todos os direitos reservados.</p>
+      <div>
+        <a href="#">LinkedIn</a>
+        <a href="#">Behance</a>
+        <a href="mailto:oi@next-tech.com">oi@next-tech.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
